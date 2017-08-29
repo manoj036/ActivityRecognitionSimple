@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mbreath.activityrecognitionsimple.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:text="In vehicle :"
+        android:id="@+id/id1"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:text="On bicycle :"
+        android:id="@+id/id2"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="On foot :"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:id="@+id/id3"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Running :"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:id="@+id/id4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Still :"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:id="@+id/id5" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Tilting :"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:id="@+id/id6" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Walking :"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:id="@+id/id7" />
+
+    <TextView
+        android:id="@+id/id8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unknown :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Result :"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:id="@+id/id9" />
+
+
+</LinearLayout>
